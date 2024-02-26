@@ -204,8 +204,12 @@ Input your newly created account's email & password and that's it!
 
 ## Deploying to Render
 
-> Instructions will be added soon.  
-> Like to complete this section? Open an issue...
+You can deploy to render using the button below.
+
+> This will use the configurations specified in the `render.yaml` file in the root of the repo.
+
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=RukshanJS/Oblivion-Inverse)
+
 
 ## Steps to create a tracking link for your email.
 

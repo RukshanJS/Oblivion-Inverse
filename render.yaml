@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: oblivion-flask-app
+    env: python
+    branch: main
+    autoDeploy: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: flask run --host=0.0.0.0 --port=10000
+    envVars:
+      - key: FLASK_ENV
+        value: production
+    # Define any non-sensitive environment variables here
+    # Sensitive environment variables and files should be added through the Render dashboard
